@@ -1,0 +1,60 @@
+.App {
+  
+}
+
+.header > h1 {
+  background-color: #222222;
+  color: white;
+}
+
+.header > h1 > img{
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.text-field{
+    display: flex;
+}
+
+.text-field > label{
+  min-width: 150px;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.text-field > input {
+  margin-block: 5px;
+}
+
+.button-panel{
+  background-color: beige;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-panel > button{
+  min-width: 100px;
+  margin: 3px;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.day-of-week{
+  border:1px dashed red;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.day-of-week > span{
+  min-width: 100px;
+  padding: 2px;
+  margin: 3px;
+}
+
+.day-of-week > button{
+  min-width: 100px;
+}
