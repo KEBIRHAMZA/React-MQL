@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './App'; // separation entre le composant et ce fichier principale (root element/ racine)
+import AuthorManager from './biblio/AuthorManager';
 // import reportWebVitals from './reportWebVitals'; // 
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // c'est exactement ce qu'on a fait dans le projet precedent
-root.render(<App />);
+root.render(
+    // <App />
+    <AuthorManager/>
+);
 
 // <React.StrictMode> declancher le script de mode strict de react : il mesur un certain nombre d'element 
 // side effect

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import TextField from './components/TextField';
 import ButtonPanel from './components/ButtonPanel';
 import DayOfWeek from './components/DayOfWeek';
+import Timer from './components/Timer';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <TextField label="Identificateur" size="10"/>
       <TextField label="Designation" size="30"/>
       <TextField label="Prix" size="15"/>
-       <DayOfWeek/>
+      <DayOfWeek/>
+      <Timer/>
       <ButtonPanel labels={['Enregistrer','Supprimer','Annuler']} />
     </div>
   );
