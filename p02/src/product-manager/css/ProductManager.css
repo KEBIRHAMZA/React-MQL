@@ -1,0 +1,23 @@
+.data-grid{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data-grid > table{
+   width: 100%;
+   box-shadow: 2px 2px 5px gray;
+   border-collapse:collapse;
+}
+
+.data-grid > table th{
+    background-color: beige;
+    border-left:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+}
+
+.data-grid > table td{
+    border-left:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+}
+
