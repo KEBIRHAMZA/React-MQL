@@ -164,4 +164,3 @@ export default reportWebVitals;
 
 
 Dans un projet créé avec CRA, on n'a pas besoin de préciser l'extension .js dans les imports.
-test 
